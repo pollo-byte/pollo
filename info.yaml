@@ -6,7 +6,7 @@ project:
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "semaforo"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
+  clock_hz:     1       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
@@ -27,13 +27,13 @@ pinout:
 
   # Outputs
   uo[0]: "s0"
-  uo[1]: "s2"
-  uo[2]: "s3"
-  uo[3]: "s4"
-  uo[4]: "s5"
-  uo[5]: "s6"
-  uo[6]: "s7"
-  uo[7]: "s8"
+  uo[1]: "s1"
+  uo[2]: "s2"
+  uo[3]: "s3"
+  uo[4]: "s4"
+  uo[5]: "s5"
+  uo[6]: "s6"
+  uo[7]: "s7"
 
   # Bidirectional pins
   uio[0]: ""
